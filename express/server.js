@@ -19,15 +19,15 @@ router.get("/events", async (req, res) => {
 
   let data;
   if (!centerid && !languageid) {
-    data = await readFile(path.join(__dirname, "../assets/all-events.json"));
+    data = await readFile(path.join(process.cwd(), "./assets/all-events.json"));
   } else if (centerid == "36" && !languageid) {
-    data = await readFile(path.join(__dirname, "../assets/en-ranchi-events.json"));
+    data = await readFile(path.join(process.cwd(), "./assets/en-ranchi-events.json"));
   } else if (centerid == "36" && languageid == "hi") {
-    data = await readFile(path.join(__dirname, "../assets/hi-ranchi-events.json"));
+    data = await readFile(path.join(process.cwd(), "./assets/hi-ranchi-events.json"));
   } else if (centerid == "41" && !languageid) {
-    data = await readFile(path.join(__dirname, "../assets/en-chennai-events.json"));
+    data = await readFile(path.join(process.cwd(), "./assets/en-chennai-events.json"));
   } else if (centerid == "41" && languageid == "ta") {
-    data = await readFile(path.join(__dirname, "../assets/ta-chennai-events.json"));
+    data = await readFile(path.join(process.cwd(), "./assets/ta-chennai-events.json"));
   } else {
     data = await readFile("test_failure.json");
   }
