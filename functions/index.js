@@ -1,13 +1,16 @@
 const express = require('express');
-const { readFile, readFileSync, writeFile } = require('fs').promises;
+const { readFile, readFileSync } = require('fs').promises;
 const path = require('path');
 const app = express();
+const serverless = require('serverless-http');
+const router = express.Router();
+
 
 // Disabling Express’s default X-Powered-By header is easy:
 app.disable('x-powered-by');
 
 // app.get('/', async (req, res) => {
-app.get('/events', async (req, res) => {
+router.get('/events', async (req, res) => {
   let centerid = req.query.centerid;
   let languageid = req.query.languageid;
 
@@ -30,7 +33,7 @@ app.get('/events', async (req, res) => {
   res.send(data);
 });
 
-app.get('/', async (req, res) => {
+router.get('/', async (req, res) => {
   const data = await readFile('test_success.json');
   res.type('application/json');
   res.send(data);
@@ -41,11 +44,11 @@ app.get('/', async (req, res) => {
 //   res.send('About Meadowlark Travel');
 // });
 
-app.use(function (req, res) {
+router.use(function (req, res) {
   res.type('text/html');
   res.status(404);
   res.send('<h1>404 - Not Found :(</h1>');
 });
 
-const port = process.env.PORT || 3000;
-app.listen(port, () => console.log(`Server is running on port ${port}`));
+app.use('/.netlify/functions/api', router);
+module.exports.handler = serverless(app);
