@@ -44,7 +44,7 @@ app.get('/', async (req, res) => {
 app.use(function (req, res) {
   res.type('text/html');
   res.status(404);
-  res.send('<h1>404 - Not Found</h1>');
+  res.send('<h1>404 - Not Found :(</h1>');
 });
 
 const port = process.env.PORT || 3000;
