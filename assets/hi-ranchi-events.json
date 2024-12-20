@@ -1,0 +1,86 @@
+[
+  {
+    "event_id": 2,
+    "event_title": "क्रिसमस",
+    "event_image": "https://yssofindia.org/wp-content/uploads/2024/09/Jesus-Christ-Featured-Image-Ranchi-Ashram-Homepage-Events-Section-300x300.jpg",
+    "event_date": [
+      {
+        "date_id": 7,
+        "date": "24 Dec 2024",
+        "desc": "दीर्घ ध्यान",
+        "schedule": [
+          {
+            "schedule_id": 1,
+            "schedule_time": "10:00 AM to 6:00 PM",
+            "schedule_name": "8 घंटे का ध्यान"
+          }
+        ]
+      },
+      {
+        "date_id": 6,
+        "date": "25 Dec 2024",
+        "desc": "क्रिसमस की बधाई",
+        "schedule": [
+          {
+            "schedule_id": 1,
+            "schedule_time": "6:30 AM to 8:00 AM",
+            "schedule_name": "प्रातः ध्यान"
+          },
+          {
+            "schedule_id": 2,
+            "schedule_time": "9:30 AM to 11:30 AM",
+            "schedule_name": "गुरु पूजा"
+          },
+          {
+            "schedule_id": 3,
+            "schedule_time": "6:00 PM to 9:00 PM",
+            "schedule_name": "संध्या ध्यान"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "event_id": 3,
+    "event_title": "नववर्ष की पूर्वसंध्या",
+    "event_image": "https://yssofindia.org/wp-content/uploads/2024/09/Christmas-Commemorations-at-YSS-Ashrams-Jesus-Christ-Featured-Image-Additional-300x300.jpg",
+    "event_date": [
+      {
+        "date_id": 8,
+        "date": "31 Dec 2024",
+        "desc": "नए साल की शुभकामनाएँ",
+        "schedule": [
+          {
+            "schedule_id": 1,
+            "schedule_time": "11:30 PM to 12:30 AM",
+            "schedule_name": "नववर्ष की पूर्वसंध्या पर विशेष ध्यान"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "event_id": 5,
+    "event_title": "Gurudeva’s Janmotsav",
+    "event_image": "https://yssofindia.org/wp-content/uploads/2024/09/Paramahansa-Yogananda-Standard-Image-Ranchi-Ashram-Homepage-Events-Section-300x300.jpg",
+    "event_date": [
+      {
+        "date_id": 9,
+        "date": "5 Jan 2025",
+        "desc": "आध्यात्मिक क्लासिक 'ऑटोबायोग्राफी ऑफ ए योगी' के लेखक श्री श्री परमहंस योगानंद (1893-1952) की 124वीं जयंती और योगदा सत्संग सोसाइटी ऑफ इंडिया (वाईएसएस) की शताब्दी का समारोह 5 जनवरी को रांची में मनाया गया।",
+        "schedule": [
+          {
+            "schedule_id": 1,
+            "schedule_time": "6:40 AM to 8:00 AM",
+            "schedule_name": "प्रातः ध्यान"
+          },
+          {
+            "schedule_id": 2,
+            "schedule_time": "6:00 PM to 7:40 PM",
+            "schedule_name": "संध्या ध्यान"
+          }
+        ]
+      }
+    ]
+  }
+]

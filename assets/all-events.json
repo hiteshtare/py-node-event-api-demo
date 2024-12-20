@@ -1,0 +1,86 @@
+[
+  {
+    "event_id": 2,
+    "event_title": "ALL EVENTS - Christmas",
+    "event_image": "https://yssofindia.org/wp-content/uploads/2024/09/Jesus-Christ-Featured-Image-Ranchi-Ashram-Homepage-Events-Section-300x300.jpg",
+    "event_date": [
+      {
+        "date_id": 7,
+        "date": "24 Dec 2024",
+        "desc": "Long Meditation",
+        "schedule": [
+          {
+            "schedule_id": 1,
+            "schedule_time": "10:00 AM to 6:00 PM",
+            "schedule_name": "8-hours Meditation"
+          }
+        ]
+      },
+      {
+        "date_id": 6,
+        "date": "25 Dec 2024",
+        "desc": "Merry Christmas",
+        "schedule": [
+          {
+            "schedule_id": 1,
+            "schedule_time": "6:30 AM to 8:00 AM",
+            "schedule_name": "Morning Meditation"
+          },
+          {
+            "schedule_id": 2,
+            "schedule_time": "9:30 AM to 11:30 AM",
+            "schedule_name": "Guru Puja"
+          },
+          {
+            "schedule_id": 3,
+            "schedule_time": "6:00 PM to 9:00 PM",
+            "schedule_name": "Evening Meditation"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "event_id": 3,
+    "event_title": "ALL EVENTS - New Years Eve",
+    "event_image": "https://yssofindia.org/wp-content/uploads/2024/09/Christmas-Commemorations-at-YSS-Ashrams-Jesus-Christ-Featured-Image-Additional-300x300.jpg",
+    "event_date": [
+      {
+        "date_id": 8,
+        "date": "31 Dec 2024",
+        "desc": "Happy New Year",
+        "schedule": [
+          {
+            "schedule_id": 1,
+            "schedule_time": "11:30 PM to 12:30 AM",
+            "schedule_name": "Special New Years Eve Meditation"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "event_id": 5,
+    "event_title": "ALL EVENTS - Gurudeva’s Janmotsav",
+    "event_image": "https://yssofindia.org/wp-content/uploads/2024/09/Paramahansa-Yogananda-Standard-Image-Ranchi-Ashram-Homepage-Events-Section-300x300.jpg",
+    "event_date": [
+      {
+        "date_id": 9,
+        "date": "5 Jan 2025",
+        "desc": "The celebrations of the 124th Birth Anniversary of Sri Sri Paramahansa Yogananda (1893-1952), author of the spiritual classic ‘Autobiography of a Yogi’, and the centenary of the Yogoda Satsanga Society of India (YSS) took place on 5th Jan in Ranchi",
+        "schedule": [
+          {
+            "schedule_id": 1,
+            "schedule_time": "6:40 AM to 8:00 AM",
+            "schedule_name": "Morning Meditation"
+          },
+          {
+            "schedule_id": 2,
+            "schedule_time": "6:00 PM to 7:40 PM",
+            "schedule_name": "Evening Meditation"
+          }
+        ]
+      }
+    ]
+  }
+]
