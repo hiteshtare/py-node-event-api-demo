@@ -68,7 +68,7 @@ router.get("/events", async (req, res) => {
         event_id: 3,
         event_title: "ALL EVENTS - New Years Eve",
         event_image:
-          "https://yssofindia.org/wp-content/uploads/2024/09/Christmas-Commemorations-at-YSS-Ashrams-Jesus-Christ-Featured-Image-Additional-300x300.jpg",
+          "https://yssofindia.org/wp-content/uploads/Homepage_ODK_Tile-1-300x300-Header-Menu.jpg",
         event_date: [
           {
             date_id: 8,
@@ -158,7 +158,7 @@ router.get("/events", async (req, res) => {
         event_id: 3,
         event_title: "New Years Eve",
         event_image:
-          "https://yssofindia.org/wp-content/uploads/2024/09/Christmas-Commemorations-at-YSS-Ashrams-Jesus-Christ-Featured-Image-Additional-300x300.jpg",
+          "https://yssofindia.org/wp-content/uploads/Homepage_ODK_Tile-1-300x300-Header-Menu.jpg",
         event_date: [
           {
             date_id: 8,
@@ -248,7 +248,7 @@ router.get("/events", async (req, res) => {
         event_id: 3,
         event_title: "नववर्ष की पूर्वसंध्या",
         event_image:
-          "https://yssofindia.org/wp-content/uploads/2024/09/Christmas-Commemorations-at-YSS-Ashrams-Jesus-Christ-Featured-Image-Additional-300x300.jpg",
+          "https://yssofindia.org/wp-content/uploads/Homepage_ODK_Tile-1-300x300-Header-Menu.jpg",
         event_date: [
           {
             date_id: 8,
@@ -338,7 +338,7 @@ router.get("/events", async (req, res) => {
         event_id: 3,
         event_title: "புத்தாண்டு ஈவ்",
         event_image:
-          "https://yssofindia.org/wp-content/uploads/2024/09/Christmas-Commemorations-at-YSS-Ashrams-Jesus-Christ-Featured-Image-Additional-300x300.jpg",
+          "https://yssofindia.org/wp-content/uploads/Homepage_ODK_Tile-1-300x300-Header-Menu.jpg",
         event_date: [
           {
             date_id: 8,
