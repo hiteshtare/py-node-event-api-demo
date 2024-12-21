@@ -383,7 +383,7 @@ router.get("/events", async (req, res) => {
   } else if (centerid == "41" && languageid == "en") {
     data = [
       {
-        event_id: 2,
+        event_id: 1,
         event_title: "Monthly Long Meditation",
         event_image:
           "https://yssofindia.org/wp-content/uploads/2024/09/Paramahansa-Yogananda-Lake-Shrine-Image-Ranchi-Ashram-Homepage-Events-Section-300x300.jpg",
@@ -402,11 +402,36 @@ router.get("/events", async (req, res) => {
           },
         ],
       },
+      {
+        event_id: 5,
+        event_title: "Gurudeva’s Janmotsav",
+        event_image:
+          "https://yssofindia.org/wp-content/uploads/2024/09/Paramahansa-Yogananda-Standard-Image-Ranchi-Ashram-Homepage-Events-Section-300x300.jpg",
+        event_date: [
+          {
+            date_id: 9,
+            date: "5 Jan 2025",
+            desc: "The celebrations of the 124th Birth Anniversary of Sri Sri Paramahansa Yogananda (1893-1952), author of the spiritual classic ‘Autobiography of a Yogi’, and the centenary of the Yogoda Satsanga Society of India (YSS) took place on 5th Jan in Ranchi",
+            schedule: [
+              {
+                schedule_id: 1,
+                schedule_time: "6:40 AM to 8:00 AM",
+                schedule_name: "Morning Meditation",
+              },
+              {
+                schedule_id: 2,
+                schedule_time: "6:00 PM to 7:40 PM",
+                schedule_name: "Evening Meditation",
+              },
+            ],
+          },
+        ],
+      },
     ];
   } else if (centerid == "41" && languageid == "ta") {
     data = [
       {
-        event_id: 2,
+        event_id: 1,
         event_title: "மாதாந்திர நீண்ட தியானம்",
         event_image:
           "https://yssofindia.org/wp-content/uploads/2024/09/Paramahansa-Yogananda-Lake-Shrine-Image-Ranchi-Ashram-Homepage-Events-Section-300x300.jpg",
@@ -420,6 +445,31 @@ router.get("/events", async (req, res) => {
                 schedule_id: 1,
                 schedule_time: "10:00 AM to 4:00 PM",
                 schedule_name: "6 மணி நேர தியானம்",
+              },
+            ],
+          },
+        ],
+      },
+      {
+        event_id: 5,
+        event_title: "குருதேவரின் ஜன்மோத்ஸவ்",
+        event_image:
+          "https://yssofindia.org/wp-content/uploads/2024/09/Paramahansa-Yogananda-Standard-Image-Ranchi-Ashram-Homepage-Events-Section-300x300.jpg",
+        event_date: [
+          {
+            date_id: 9,
+            date: "5 ஜனவரி 2025",
+            desc: "'யோகியின் சுயசரிதை' என்ற ஆன்மீகக் கிளாசிக் நூலை எழுதிய ஸ்ரீ ஸ்ரீ பரமஹம்ச யோகானந்தாவின் (1893-1952) 124வது பிறந்தநாள் விழாவும், இந்தியாவின் யோகாதா சத்சங்க சொசைட்டியின் (YSS) நூற்றாண்டு விழாவும் ராஞ்சியில் ஜனவரி 5ஆம் தேதி நடைபெற்றது.",
+            schedule: [
+              {
+                schedule_id: 1,
+                schedule_time: "6:40 AM to 8:00 AM",
+                schedule_name: "காலை தியானம்",
+              },
+              {
+                schedule_id: 2,
+                schedule_time: "6:00 PM to 7:40 PM",
+                schedule_name: "மாலை தியானம்",
               },
             ],
           },
