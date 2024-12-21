@@ -290,6 +290,96 @@ router.get("/events", async (req, res) => {
         ],
       },
     ];
+  } else if (centerid == "36" && languageid == "ta") {
+    data = [
+      {
+        event_id: 2,
+        event_title: "கிறிஸ்துமஸ்",
+        event_image:
+          "https://yssofindia.org/wp-content/uploads/2024/09/Jesus-Christ-Featured-Image-Ranchi-Ashram-Homepage-Events-Section-300x300.jpg",
+        event_date: [
+          {
+            date_id: 7,
+            date: "24 டிசம்பர் 2024",
+            desc: "நீண்ட தியானம்",
+            schedule: [
+              {
+                schedule_id: 1,
+                schedule_time: "10:00 AM to 6:00 PM",
+                schedule_name: "8 மணி நேர தியானம்",
+              },
+            ],
+          },
+          {
+            date_id: 6,
+            date: "25 டிசம்பர் 2024",
+            desc: "கிறிஸ்துமஸ் வாழ்த்துக்கள்",
+            schedule: [
+              {
+                schedule_id: 1,
+                schedule_time: "6:30 AM to 8:00 AM",
+                schedule_name: "காலை தியானம்",
+              },
+              {
+                schedule_id: 2,
+                schedule_time: "9:30 AM to 11:30 AM",
+                schedule_name: "குரு பூஜை",
+              },
+              {
+                schedule_id: 3,
+                schedule_time: "6:00 PM to 9:00 PM",
+                schedule_name: "மாலை தியானம்",
+              },
+            ],
+          },
+        ],
+      },
+      {
+        event_id: 3,
+        event_title: "புத்தாண்டு ஈவ்",
+        event_image:
+          "https://yssofindia.org/wp-content/uploads/2024/09/Christmas-Commemorations-at-YSS-Ashrams-Jesus-Christ-Featured-Image-Additional-300x300.jpg",
+        event_date: [
+          {
+            date_id: 8,
+            date: "31 டிசம்பர் 2024",
+            desc: "புத்தாண்டு வாழ்த்துக்கள்",
+            schedule: [
+              {
+                schedule_id: 1,
+                schedule_time: "11:30 PM to 12:30 AM",
+                schedule_name: "புத்தாண்டு தினத்தன்று சிறப்பு கவனம்",
+              },
+            ],
+          },
+        ],
+      },
+      {
+        event_id: 5,
+        event_title: "குருதேவரின் ஜன்மோத்ஸவ்",
+        event_image:
+          "https://yssofindia.org/wp-content/uploads/2024/09/Paramahansa-Yogananda-Standard-Image-Ranchi-Ashram-Homepage-Events-Section-300x300.jpg",
+        event_date: [
+          {
+            date_id: 9,
+            date: "5 ஜனவரி 2025",
+            desc: "'யோகியின் சுயசரிதை' என்ற ஆன்மீகக் கிளாசிக் நூலை எழுதிய ஸ்ரீ ஸ்ரீ பரமஹம்ச யோகானந்தாவின் (1893-1952) 124வது பிறந்தநாள் விழாவும், இந்தியாவின் யோகாதா சத்சங்க சொசைட்டியின் (YSS) நூற்றாண்டு விழாவும் ராஞ்சியில் ஜனவரி 5ஆம் தேதி நடைபெற்றது.",
+            schedule: [
+              {
+                schedule_id: 1,
+                schedule_time: "6:40 AM to 8:00 AM",
+                schedule_name: "காலை தியானம்",
+              },
+              {
+                schedule_id: 2,
+                schedule_time: "6:00 PM to 7:40 PM",
+                schedule_name: "மாலை தியானம்",
+              },
+            ],
+          },
+        ],
+      },
+    ];
   } else if (centerid == "41" && languageid == "en") {
     data = [
       {
