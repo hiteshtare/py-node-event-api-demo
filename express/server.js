@@ -210,7 +210,7 @@ router.get("/events", async (req, res) => {
         event_date: [
           {
             date_id: 7,
-            date: "24 Dec 2024",
+            date: "24 दिसम्बर 2024",
             desc: "दीर्घ ध्यान",
             schedule: [
               {
@@ -222,7 +222,7 @@ router.get("/events", async (req, res) => {
           },
           {
             date_id: 6,
-            date: "25 Dec 2024",
+            date: "25 दिसम्बर 2024",
             desc: "क्रिसमस की बधाई",
             schedule: [
               {
@@ -252,7 +252,7 @@ router.get("/events", async (req, res) => {
         event_date: [
           {
             date_id: 8,
-            date: "31 Dec 2024",
+            date: "31 दिसम्बर 2024",
             desc: "नए साल की शुभकामनाएँ",
             schedule: [
               {
@@ -266,13 +266,13 @@ router.get("/events", async (req, res) => {
       },
       {
         event_id: 5,
-        event_title: "Gurudeva’s Janmotsav",
+        event_title: "गुरुदेव का जन्मोत्सव",
         event_image:
           "https://yssofindia.org/wp-content/uploads/2024/09/Paramahansa-Yogananda-Standard-Image-Ranchi-Ashram-Homepage-Events-Section-300x300.jpg",
         event_date: [
           {
             date_id: 9,
-            date: "5 Jan 2025",
+            date: "5 जनवरी 2025",
             desc: "आध्यात्मिक क्लासिक 'ऑटोबायोग्राफी ऑफ ए योगी' के लेखक श्री श्री परमहंस योगानंद (1893-1952) की 124वीं जयंती और योगदा सत्संग सोसाइटी ऑफ इंडिया (वाईएसएस) की शताब्दी का समारोह 5 जनवरी को रांची में मनाया गया।",
             schedule: [
               {
@@ -370,7 +370,7 @@ router.get("/events", async (req, res) => {
         event_date: [
           {
             date_id: 7,
-            date: "24 Dec 2024",
+            date: "24 டிசம்பர் 2024",
             desc: "நீண்ட தியானம்",
             schedule: [
               {
@@ -382,7 +382,7 @@ router.get("/events", async (req, res) => {
           },
           {
             date_id: 6,
-            date: "25 Dec 2024",
+            date: "25 டிசம்பர் 2024",
             desc: "கிறிஸ்துமஸ் வாழ்த்துக்கள்",
             schedule: [
               {
@@ -412,7 +412,7 @@ router.get("/events", async (req, res) => {
         event_date: [
           {
             date_id: 9,
-            date: "5 Jan 2025",
+            date: "5 ஜனவரி 2025",
             desc: "'யோகியின் சுயசரிதை' என்ற ஆன்மீகக் கிளாசிக் நூலை எழுதிய ஸ்ரீ ஸ்ரீ பரமஹம்ச யோகானந்தாவின் (1893-1952) 124வது பிறந்தநாள் விழாவும், இந்தியாவின் யோகாதா சத்சங்க சொசைட்டியின் (YSS) நூற்றாண்டு விழாவும் ராஞ்சியில் ஜனவரி 5ஆம் தேதி நடைபெற்றது.",
             schedule: [
               {
