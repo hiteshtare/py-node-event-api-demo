@@ -114,7 +114,7 @@ router.get("/events", async (req, res) => {
     data = [
       {
         event_id: 2,
-        event_title: "RANCHI - Christmas",
+        event_title: "Christmas",
         event_image:
           "https://yssofindia.org/wp-content/uploads/2024/09/Jesus-Christ-Featured-Image-Ranchi-Ashram-Homepage-Events-Section-300x300.jpg",
         event_date: [
@@ -156,7 +156,7 @@ router.get("/events", async (req, res) => {
       },
       {
         event_id: 3,
-        event_title: "RANCHI - New Years Eve",
+        event_title: "New Years Eve",
         event_image:
           "https://yssofindia.org/wp-content/uploads/2024/09/Christmas-Commemorations-at-YSS-Ashrams-Jesus-Christ-Featured-Image-Additional-300x300.jpg",
         event_date: [
@@ -176,7 +176,7 @@ router.get("/events", async (req, res) => {
       },
       {
         event_id: 5,
-        event_title: "RANCHI - Gurudeva’s Janmotsav",
+        event_title: "Gurudeva’s Janmotsav",
         event_image:
           "https://yssofindia.org/wp-content/uploads/2024/09/Paramahansa-Yogananda-Standard-Image-Ranchi-Ashram-Homepage-Events-Section-300x300.jpg",
         event_date: [
@@ -204,7 +204,7 @@ router.get("/events", async (req, res) => {
     data = [
       {
         event_id: 2,
-        event_title: "RANCHI - क्रिसमस",
+        event_title: "क्रिसमस",
         event_image:
           "https://yssofindia.org/wp-content/uploads/2024/09/Jesus-Christ-Featured-Image-Ranchi-Ashram-Homepage-Events-Section-300x300.jpg",
         event_date: [
@@ -246,7 +246,7 @@ router.get("/events", async (req, res) => {
       },
       {
         event_id: 3,
-        event_title: "RANCHI - नववर्ष की पूर्वसंध्या",
+        event_title: "नववर्ष की पूर्वसंध्या",
         event_image:
           "https://yssofindia.org/wp-content/uploads/2024/09/Christmas-Commemorations-at-YSS-Ashrams-Jesus-Christ-Featured-Image-Additional-300x300.jpg",
         event_date: [
@@ -266,7 +266,7 @@ router.get("/events", async (req, res) => {
       },
       {
         event_id: 5,
-        event_title: "RANCHI - गुरुदेव का जन्मोत्सव",
+        event_title: "गुरुदेव का जन्मोत्सव",
         event_image:
           "https://yssofindia.org/wp-content/uploads/2024/09/Paramahansa-Yogananda-Standard-Image-Ranchi-Ashram-Homepage-Events-Section-300x300.jpg",
         event_date: [
@@ -294,7 +294,7 @@ router.get("/events", async (req, res) => {
     data = [
       {
         event_id: 2,
-        event_title: "RANCHI - கிறிஸ்துமஸ்",
+        event_title: "கிறிஸ்துமஸ்",
         event_image:
           "https://yssofindia.org/wp-content/uploads/2024/09/Jesus-Christ-Featured-Image-Ranchi-Ashram-Homepage-Events-Section-300x300.jpg",
         event_date: [
@@ -336,7 +336,7 @@ router.get("/events", async (req, res) => {
       },
       {
         event_id: 3,
-        event_title: "RANCHI - புத்தாண்டு ஈவ்",
+        event_title: "புத்தாண்டு ஈவ்",
         event_image:
           "https://yssofindia.org/wp-content/uploads/2024/09/Christmas-Commemorations-at-YSS-Ashrams-Jesus-Christ-Featured-Image-Additional-300x300.jpg",
         event_date: [
@@ -356,7 +356,7 @@ router.get("/events", async (req, res) => {
       },
       {
         event_id: 5,
-        event_title: "RANCHI - குருதேவரின் ஜன்மோத்ஸவ்",
+        event_title: "குருதேவரின் ஜன்மோத்ஸவ்",
         event_image:
           "https://yssofindia.org/wp-content/uploads/2024/09/Paramahansa-Yogananda-Standard-Image-Ranchi-Ashram-Homepage-Events-Section-300x300.jpg",
         event_date: [
@@ -384,66 +384,19 @@ router.get("/events", async (req, res) => {
     data = [
       {
         event_id: 2,
-        event_title: "CHENNAI - Christmas",
+        event_title: "Monthly Long Meditation",
         event_image:
-          "https://yssofindia.org/wp-content/uploads/2024/09/Jesus-Christ-Featured-Image-Ranchi-Ashram-Homepage-Events-Section-300x300.jpg",
+          "https://yssofindia.org/wp-content/uploads/2024/09/Paramahansa-Yogananda-Lake-Shrine-Image-Ranchi-Ashram-Homepage-Events-Section-300x300.jpg",
         event_date: [
           {
             date_id: 7,
-            date: "24 Dec 2024",
+            date: "24 Nov 2024",
             desc: "Long Meditation",
             schedule: [
               {
                 schedule_id: 1,
-                schedule_time: "10:00 AM to 6:00 PM",
-                schedule_name: "8-hours Meditation",
-              },
-            ],
-          },
-          {
-            date_id: 6,
-            date: "25 Dec 2024",
-            desc: "Merry Christmas",
-            schedule: [
-              {
-                schedule_id: 1,
-                schedule_time: "6:30 AM to 8:00 AM",
-                schedule_name: "Morning Meditation",
-              },
-              {
-                schedule_id: 2,
-                schedule_time: "9:30 AM to 11:30 AM",
-                schedule_name: "Guru Puja",
-              },
-              {
-                schedule_id: 3,
-                schedule_time: "6:00 PM to 9:00 PM",
-                schedule_name: "Evening Meditation",
-              },
-            ],
-          },
-        ],
-      },
-      {
-        event_id: 5,
-        event_title: "CHENNAI - Gurudeva’s Janmotsav",
-        event_image:
-          "https://yssofindia.org/wp-content/uploads/2024/09/Paramahansa-Yogananda-Standard-Image-Ranchi-Ashram-Homepage-Events-Section-300x300.jpg",
-        event_date: [
-          {
-            date_id: 9,
-            date: "5 Jan 2025",
-            desc: "The celebrations of the 124th Birth Anniversary of Sri Sri Paramahansa Yogananda (1893-1952), author of the spiritual classic ‘Autobiography of a Yogi’, and the centenary of the Yogoda Satsanga Society of India (YSS) took place on 5th Jan in Ranchi",
-            schedule: [
-              {
-                schedule_id: 1,
-                schedule_time: "6:40 AM to 8:00 AM",
-                schedule_name: "Morning Meditation",
-              },
-              {
-                schedule_id: 2,
-                schedule_time: "6:00 PM to 7:40 PM",
-                schedule_name: "Evening Meditation",
+                schedule_time: "10:00 AM to 4:00 PM",
+                schedule_name: "6-hours Meditation",
               },
             ],
           },
@@ -454,66 +407,19 @@ router.get("/events", async (req, res) => {
     data = [
       {
         event_id: 2,
-        event_title: "CHENNAI - கிறிஸ்துமஸ்",
+        event_title: "மாதாந்திர நீண்ட தியானம்",
         event_image:
-          "https://yssofindia.org/wp-content/uploads/2024/09/Jesus-Christ-Featured-Image-Ranchi-Ashram-Homepage-Events-Section-300x300.jpg",
+          "https://yssofindia.org/wp-content/uploads/2024/09/Paramahansa-Yogananda-Lake-Shrine-Image-Ranchi-Ashram-Homepage-Events-Section-300x300.jpg",
         event_date: [
           {
             date_id: 7,
-            date: "24 டிசம்பர் 2024",
+            date: "24 Nov 2024",
             desc: "நீண்ட தியானம்",
             schedule: [
               {
                 schedule_id: 1,
-                schedule_time: "10:00 AM to 6:00 PM",
-                schedule_name: "8 மணி நேர தியானம்",
-              },
-            ],
-          },
-          {
-            date_id: 6,
-            date: "25 டிசம்பர் 2024",
-            desc: "கிறிஸ்துமஸ் வாழ்த்துக்கள்",
-            schedule: [
-              {
-                schedule_id: 1,
-                schedule_time: "6:30 AM to 8:00 AM",
-                schedule_name: "காலை தியானம்",
-              },
-              {
-                schedule_id: 2,
-                schedule_time: "9:30 AM to 11:30 AM",
-                schedule_name: "குரு பூஜை",
-              },
-              {
-                schedule_id: 3,
-                schedule_time: "6:00 PM to 9:00 PM",
-                schedule_name: "மாலை தியானம்",
-              },
-            ],
-          },
-        ],
-      },
-      {
-        event_id: 5,
-        event_title: "CHENNAI - குருதேவரின் ஜன்மோத்ஸவ்",
-        event_image:
-          "https://yssofindia.org/wp-content/uploads/2024/09/Paramahansa-Yogananda-Standard-Image-Ranchi-Ashram-Homepage-Events-Section-300x300.jpg",
-        event_date: [
-          {
-            date_id: 9,
-            date: "5 ஜனவரி 2025",
-            desc: "'யோகியின் சுயசரிதை' என்ற ஆன்மீகக் கிளாசிக் நூலை எழுதிய ஸ்ரீ ஸ்ரீ பரமஹம்ச யோகானந்தாவின் (1893-1952) 124வது பிறந்தநாள் விழாவும், இந்தியாவின் யோகாதா சத்சங்க சொசைட்டியின் (YSS) நூற்றாண்டு விழாவும் ராஞ்சியில் ஜனவரி 5ஆம் தேதி நடைபெற்றது.",
-            schedule: [
-              {
-                schedule_id: 1,
-                schedule_time: "6:40 AM to 8:00 AM",
-                schedule_name: "காலை தியானம்",
-              },
-              {
-                schedule_id: 2,
-                schedule_time: "6:00 PM to 7:40 PM",
-                schedule_name: "மாலை தியானம்",
+                schedule_time: "10:00 AM to 4:00 PM",
+                schedule_name: "6 மணி நேர தியானம்",
               },
             ],
           },
