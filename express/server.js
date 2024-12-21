@@ -204,7 +204,7 @@ router.get("/events", async (req, res) => {
     data = [
       {
         event_id: 2,
-        event_title: "क्रिसमस",
+        event_title: "RANCHI - क्रिसमस",
         event_image:
           "https://yssofindia.org/wp-content/uploads/2024/09/Jesus-Christ-Featured-Image-Ranchi-Ashram-Homepage-Events-Section-300x300.jpg",
         event_date: [
@@ -246,7 +246,7 @@ router.get("/events", async (req, res) => {
       },
       {
         event_id: 3,
-        event_title: "नववर्ष की पूर्वसंध्या",
+        event_title: "RANCHI - नववर्ष की पूर्वसंध्या",
         event_image:
           "https://yssofindia.org/wp-content/uploads/2024/09/Christmas-Commemorations-at-YSS-Ashrams-Jesus-Christ-Featured-Image-Additional-300x300.jpg",
         event_date: [
@@ -266,7 +266,7 @@ router.get("/events", async (req, res) => {
       },
       {
         event_id: 5,
-        event_title: "गुरुदेव का जन्मोत्सव",
+        event_title: "RANCHI - गुरुदेव का जन्मोत्सव",
         event_image:
           "https://yssofindia.org/wp-content/uploads/2024/09/Paramahansa-Yogananda-Standard-Image-Ranchi-Ashram-Homepage-Events-Section-300x300.jpg",
         event_date: [
@@ -294,7 +294,7 @@ router.get("/events", async (req, res) => {
     data = [
       {
         event_id: 2,
-        event_title: "கிறிஸ்துமஸ்",
+        event_title: "RANCHI - கிறிஸ்துமஸ்",
         event_image:
           "https://yssofindia.org/wp-content/uploads/2024/09/Jesus-Christ-Featured-Image-Ranchi-Ashram-Homepage-Events-Section-300x300.jpg",
         event_date: [
@@ -336,7 +336,7 @@ router.get("/events", async (req, res) => {
       },
       {
         event_id: 3,
-        event_title: "புத்தாண்டு ஈவ்",
+        event_title: "RANCHI - புத்தாண்டு ஈவ்",
         event_image:
           "https://yssofindia.org/wp-content/uploads/2024/09/Christmas-Commemorations-at-YSS-Ashrams-Jesus-Christ-Featured-Image-Additional-300x300.jpg",
         event_date: [
@@ -356,7 +356,7 @@ router.get("/events", async (req, res) => {
       },
       {
         event_id: 5,
-        event_title: "குருதேவரின் ஜன்மோத்ஸவ்",
+        event_title: "RANCHI - குருதேவரின் ஜன்மோத்ஸவ்",
         event_image:
           "https://yssofindia.org/wp-content/uploads/2024/09/Paramahansa-Yogananda-Standard-Image-Ranchi-Ashram-Homepage-Events-Section-300x300.jpg",
         event_date: [
@@ -454,7 +454,7 @@ router.get("/events", async (req, res) => {
     data = [
       {
         event_id: 2,
-        event_title: "கிறிஸ்துமஸ்",
+        event_title: "CHENNAI - கிறிஸ்துமஸ்",
         event_image:
           "https://yssofindia.org/wp-content/uploads/2024/09/Jesus-Christ-Featured-Image-Ranchi-Ashram-Homepage-Events-Section-300x300.jpg",
         event_date: [
@@ -496,7 +496,7 @@ router.get("/events", async (req, res) => {
       },
       {
         event_id: 5,
-        event_title: "குருதேவரின் ஜன்மோத்ஸவ்",
+        event_title: "CHENNAI - குருதேவரின் ஜன்மோத்ஸவ்",
         event_image:
           "https://yssofindia.org/wp-content/uploads/2024/09/Paramahansa-Yogananda-Standard-Image-Ranchi-Ashram-Homepage-Events-Section-300x300.jpg",
         event_date: [
