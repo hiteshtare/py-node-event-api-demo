@@ -438,7 +438,7 @@ router.get("/events", async (req, res) => {
         event_date: [
           {
             date_id: 7,
-            date: "24 Nov 2024",
+            date: "24 நவம்பர் 2024",
             desc: "நீண்ட தியானம்",
             schedule: [
               {
@@ -470,6 +470,54 @@ router.get("/events", async (req, res) => {
                 schedule_id: 2,
                 schedule_time: "6:00 PM to 7:40 PM",
                 schedule_name: "மாலை தியானம்",
+              },
+            ],
+          },
+        ],
+      },
+    ];
+  } else if (centerid == "41" && languageid == "te") {
+    data = [
+      {
+        event_id: 1,
+        event_title: "గురుదేవుని జన్మోత్సవం",
+        event_image:
+          "https://yssofindia.org/wp-content/uploads/2024/09/Paramahansa-Yogananda-Lake-Shrine-Image-Ranchi-Ashram-Homepage-Events-Section-300x300.jpg",
+        event_date: [
+          {
+            date_id: 7,
+            date: "24 నవంబర్ 2024",
+            desc: "దీర్ఘ ధ్యానం",
+            schedule: [
+              {
+                schedule_id: 1,
+                schedule_time: "10:00 AM to 4:00 PM",
+                schedule_name: "6 గంటల ధ్యానం",
+              },
+            ],
+          },
+        ],
+      },
+      {
+        event_id: 5,
+        event_title: "గురుదేవుని జన్మోత్సవం",
+        event_image:
+          "https://yssofindia.org/wp-content/uploads/2024/09/Paramahansa-Yogananda-Standard-Image-Ranchi-Ashram-Homepage-Events-Section-300x300.jpg",
+        event_date: [
+          {
+            date_id: 9,
+            date: "5 జనవరి 2025",
+            desc: "ఆధ్యాత్మిక క్లాసిక్ ‘ఆటోబయోగ్రఫీ ఆఫ్ ఎ యోగి’ రచయిత శ్రీశ్రీశ్రీ పరమహంస యోగానంద (1893-1952) 124వ జయంతి వేడుకలు, యోగాదా సత్సంగ సొసైటీ ఆఫ్ ఇండియా (వైఎస్‌ఎస్) శతాబ్ది వేడుకలు జనవరి 5న రాంచీలో జరిగాయి.",
+            schedule: [
+              {
+                schedule_id: 1,
+                schedule_time: "6:40 AM to 8:00 AM",
+                schedule_name: "ఉదయం ధ్యానం",
+              },
+              {
+                schedule_id: 2,
+                schedule_time: "6:00 PM to 7:40 PM",
+                schedule_name: "సాయంత్రం ధ్యానం",
               },
             ],
           },
